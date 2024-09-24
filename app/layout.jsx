@@ -4,9 +4,6 @@ import { DM_Sans } from 'next/font/google'
 export const metadata = {
   title: "Somor Furniture Next App",
   description: "Designed by Somor Mk",
-  openGraph: {
-    images: '',
-  },
 };
 
 const dmSans = DM_Sans({
@@ -24,7 +21,6 @@ export default function RootLayout({ children }) {
       </head>
       <body
         className={dmSans.className}
-      // className={`antialiased`}
       >
         {children}
       </body>

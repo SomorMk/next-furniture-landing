@@ -5,9 +5,7 @@ import Image from 'next/image'
 import { GrCloudDownload } from "react-icons/gr";
 import { useEffect, useState } from 'react';
 import { Container } from './SubComponents';
-import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { FaCircleXmark } from "react-icons/fa6";
-import { FaBarsProgress } from "react-icons/fa6";
 import { FaBarsStaggered } from "react-icons/fa6";
 
 const Navbar = () => {
